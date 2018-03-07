@@ -214,7 +214,7 @@ li{
 .decorator::after{
   position: absolute;
   top: calc(var(--decorator-outer-offset-top) + var(--decorator-border-width));
-  left: calc(var(--decorator-outer-offset-left) + var(--decorator-border-width));
+  left: calc(var(--decorator-outer-offset-left) + var(--decorator-border-width) + 0.4pt);
   content: ' ';
   display: block;
   width: calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
