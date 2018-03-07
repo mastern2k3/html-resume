@@ -1,0 +1,29 @@
+
+---
+projects:
+
+  - company: Cellebrite
+    title:   Full Stack Developer
+    to:      2014
+    from:    2013
+    sub:     CodeValue
+    place:   Ganei Tikva
+    desc:
+      - Was part of the infrastructure team, working closely with their architect to solve problems in their pub-sub and event sourcing infrastructure.
+      - Developed a POC using Node.js and Websockets in favor of refactoring parts of the existing .Net system.
+    tags: [ Event Sourcing, WF4, WCF, MassTransit, MSMQ, Node.js, Websockets, Performance Profiling, Telerik, C# ]
+
+  - company: CityShob
+    title:   Full Stack Developer
+    to:      present
+    from:    2017
+    sub:     CodeValue
+    place:   Kfar Neter
+    desc:
+      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
+    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
+
+info:
+  linkedin: linkedin.com/in/nitzanzada
+  email:    nitzan.zada@gmail.com
+  phone:    (+972) 054-4981014

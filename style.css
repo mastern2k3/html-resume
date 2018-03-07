@@ -315,7 +315,21 @@ li{
   margin-left: 0 !important;
 }
 
+.details .tags ul {
+  list-style-type: none;
+}
 
+.details .tags li {
+
+  list-style-type: none;
+  float: left;
+  margin-right: 7pt !important;
+}
+
+/*.details .tags li:not(:first-child) {
+
+  margin-left: 10pt !important;
+}*/
 
 /* sidebar */
 

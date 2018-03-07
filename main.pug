@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content
+    each project in projects
+        section.blocks
+            .date
+                span= project.from
+                span= project.to
+            .decorator
+            .details
+                header
+                    h3= project.title
+                    span.place= project.company
+                    span.location= project.place
+                div
+                    ul
+                        each item in project.desc
+                            li= item
+                .tags
+                    ul
+                        each item in project.tags
+                            li= item
