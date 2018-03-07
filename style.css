@@ -1,5 +1,5 @@
 @page{
-  size: letter portrait;
+  size: A4 portrait;
   margin: 0;
 }
 
@@ -8,13 +8,13 @@
 }
 
 :root{
-  --page-width: 8.5in;
-  --page-height: 11in;
+  --page-width: 8.3in;
+  --page-height: 11.7in;
   --main-width: 6.4in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
 
-  --sidebar-horizontal-padding: 0.2in;
+  --sidebar-horizontal-padding: 0.17in;
 
   /* XXX: using px for very good precision control */
   --decorator-outer-offset-top: 10px;
@@ -62,7 +62,7 @@ li{
   width: var(--sidebar-width);
   height: 100%;
   padding: 0.6in var(--sidebar-horizontal-padding);
-  background-color: #f2f2f2;
+  background-color: #eceff1;
   font-size: 8.5pt;
 }
 
@@ -331,7 +331,7 @@ li{
 #contact ul{
   margin-top: 0.05in;
   padding-left: 0;
-  font-family: "Source Code Pro";
+  /* font-family: "Source Code Pro"; */
   font-weight: 400;
   line-height: 1.75;
 }
