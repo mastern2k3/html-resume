@@ -1,32 +1,65 @@
 extends layout.pug
 
 block content
-    each section in sections
-        section.main-block
+  each page in pages
+    .page
+      section.main
+        header.title
+          h1= info.name
+          if info.subtitle
+            span.subtitle= info.subtitle
+        
+        each section in page.sections
+          section.main-block
             h2
-                i(class= 'fa ' + section.icon)
-                = section.name
+              i(class= 'fa ' + section.icon)
+              = section.name
             each item in section.items
-                section.blocks
-                    .date
-                        if item.dates
-                            each date in item.dates
-                                span= date
-                    .decorator
-                    .details
-                        header
-                            h3= item.title
-                            if item.company
-                                span.place= item.company
-                            if item.place
-                                span.location= item.place
-                        if item.desc
-                            div
-                                ul
-                                    each ditem in item.desc
-                                        li= ditem
-                        if item.tags
-                            .tags
-                                ul
-                                    each titem in item.tags
-                                        li= titem
+              section.blocks
+                .date
+                  if item.dates
+                    each date in item.dates
+                      span= date
+                .decorator
+                .details
+                  header
+                    h3= item.title
+                    if item.company
+                      span.place= item.company
+                    if item.place
+                      span.location= item.place
+                  if item.desc
+                    div
+                      ul
+                        each ditem in item.desc
+                          li= ditem
+                  if item.tags
+                    .tags
+                      ul
+                        each titem in item.tags
+                          li= titem
+
+      aside.sidebar
+      
+        .side-block.contact
+          h1 Contact Info
+          ul
+          if info.site
+              li #[i.fa.fa-globe] #{info.site}
+
+          if info.linkedin
+              li #[i.fa.fa-linkedin] #{info.linkedin}
+
+          if info.email
+              li #[i.fa.fa-envelope] #{info.email}
+
+          if info.phone
+              li #[i.fa.fa-phone] #{info.phone}
+        
+        if info.skills
+          .skills.side-block
+            h1 Skills
+            ul
+              each skill in info.skills
+                li= skill
+        side-block.disclaimer &nbsp;

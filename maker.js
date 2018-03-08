@@ -12,23 +12,16 @@ try {
     
     let model = {
         info: docs[0],
-        sections: docs.slice(1, 3)
+        pages: [
+            { sections: docs.slice(1, 3) },
+            { sections: docs.slice(3) }
+        ]
     };
 
     let rendered = pug.renderFile('main.pug', model);
     
-    fs.writeFileSync(path.join(__dirname, 'rendered_main.htm'), rendered, 'utf8');
+    fs.writeFileSync(path.join(__dirname, 'rendered.htm'), rendered, 'utf8');
 
-    model = {
-        info: docs[0],
-        sections: docs.slice(3)
-    };
-
-    rendered = pug.renderFile('main.pug', model);
-    
-    fs.writeFileSync(path.join(__dirname, 'rendered_back.htm'), rendered, 'utf8');
-
-    // console.log(doc);
     console.log('Done');
 
 } catch (e) {

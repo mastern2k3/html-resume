@@ -61,6 +61,15 @@ items:
       - Developed features for the back-office tool using Angular 1.5, WebApi and Bootstrap.
     tags: [ Roslyn, Semantic tree, Angular, WebApi, TypeScript, C# ]
 
+  - company: CodeValue
+    title:   Course Conductor
+    dates:   [ present, 2014 ]
+    desc:
+      - "As one of the consultants at CodeValue I conducted short term courses for numerous clients:"
+      - Git and GitExtensions for the Israel Aerospace Industries (IAI) and Microsoft
+      - Python for General Motors
+      - Xml Data Management and Processing for Check Point
+
   - company: NCR
     title:   Full Stack Developer
     dates:   [ 2015, 2014 ]
