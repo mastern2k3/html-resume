@@ -2,19 +2,8 @@
 ---
 projects:
 
-  - company: Cellebrite
-    title:   Full Stack Developer
-    to:      2014
-    from:    2013
-    sub:     CodeValue
-    place:   Ganei Tikva
-    desc:
-      - Was part of the infrastructure team, working closely with their architect to solve problems in their pub-sub and event sourcing infrastructure.
-      - Developed a POC using Node.js and Websockets in favor of refactoring parts of the existing .Net system.
-    tags: [ Event Sourcing, WF4, WCF, MassTransit, MSMQ, Node.js, Websockets, Performance Profiling, Telerik, C# ]
-
   - company: CityShob
-    title:   Full Stack Developer
+    title:   Consultant / Full Stack Developer
     to:      present
     from:    2017
     sub:     CodeValue
@@ -23,7 +12,75 @@ projects:
       - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
     tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
 
+  - company: Maavarim - IDF
+    title:   Architect / Consultant
+    to:      present
+    from:    2017
+    sub:     CodeValue
+    place:   Rishon LeZion
+    desc:
+      - Acting as a consultant helping with raising a new project that integrates face detection and asynchronous behavior to the existing security systems.
+    tags: [ BSON, Redis, Oracle, Face Detection, C# ]
+
+  - company: Verifile
+    title:   Architect / Full Stack Developer
+    to:      2017
+    from:    2017
+    sub:     CodeValue
+    place:   Herzliya
+    desc:
+      - Was part of the architecture team building a new API framework.
+      - Helped complete the delivery of a new API architecture to the client.
+    tags: [ WebApi, REST, Swagger, PhantomJS, Selenium, Web automation, C# ]
+
+  - company: QualiSystems
+    title:   Consultant / Full Stack Developer
+    to:      2016
+    from:    2015
+    sub:     CodeValue
+    place:   Ganei Tikva
+    desc:
+      - Started as a consultant in charge of investigating the migration of some of the project's .net services to Linux machines.
+      - Was a tech lead in the core infrastructure team.
+    tags: [ Mono, Linux, WCF Extensions, Python, Java, IntelliJ Extensions, TypeScript, C# ]
+
+  - company: OzCode
+    title:   Consultant
+    to:      present
+    from:    2014
+    sub:     CodeValue
+    place:   Herzliya
+    desc:
+      - OzCode is a debugging tool and plugin for Visual Studio developed by a CodeValue subsidiary.
+      - I Worked on the tool's integration with Roslyn (C# compiler) and contributed to the Microsoft repo.
+      - Developed features for the back-office tool using Angular 1.5, WebApi and Bootstrap.
+    tags: [ Roslyn, Semantic tree, Angular, WebApi, TypeScript, C# ]
+
+  - company: NCR
+    title:   Full Stack Developer
+    to:      2015
+    from:    2014
+    sub:     CodeValue
+    place:   Ra'anana
+    desc:
+      - Was part of what was called the R10 core infrastructure team, helping develop the infrastructure for the upcoming R10 product.
+      - Helped with profiling the system with various tools.
+    tags: [ RabbitMQ, SQL Server, Profiling, WCF Extensions, C# ]
+
+  - company: Cellebrite
+    title:   Full Stack Developer
+    to:      2014
+    from:    2013
+    sub:     CodeValue
+    place:   Petah Tikva
+    desc:
+      - Was part of the infrastructure team, working closely with their architect to solve problems in their pub-sub and event sourcing infrastructure.
+      - Developed a POC using Node.js and Websockets in favor of refactoring parts of the existing .Net system.
+    tags: [ Event Sourcing, WF4, WCF, MassTransit, MSMQ, Node.js, Websockets, Performance Profiling, Telerik, C# ]
+
 info:
+  name:     Nitzan Zada
+  subtitle: I'm kinda good, give me a job
   linkedin: linkedin.com/in/nitzanzada
   email:    nitzan.zada@gmail.com
   phone:    (+972) 054-4981014
