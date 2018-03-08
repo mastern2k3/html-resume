@@ -29,9 +29,9 @@ try {
     fs.writeFileSync(path.join(__dirname, 'rendered_back.htm'), rendered, 'utf8');
 
     // console.log(doc);
-    console.log('noooice~');
+    console.log('Done');
 
 } catch (e) {
 
-    console.log(e);
+    console.error(e);
 }

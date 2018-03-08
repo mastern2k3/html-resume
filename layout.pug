@@ -21,10 +21,17 @@
           Contact Info
         </h1>
         <ul>
-          <!--<li><i class="fa fa-globe"></i> johndoe.gtld</li>-->
-          <li><i class="fa fa-linkedin"></i> linkedin.com/in/nitzanzada</li>
-          <li><i class="fa fa-envelope"></i> nitzan.zada@gmail.com</li>
-          <li><i class="fa fa-phone"></i> (+972) 054-4981014</li>
+          if info.site
+            li #[i.fa.fa-globe] #{info.site}
+
+          if info.linkedin
+            li #[i.fa.fa-linkedin] #{info.linkedin}
+
+          if info.email
+            li #[i.fa.fa-envelope] #{info.email}
+
+          if info.phone
+            li #[i.fa.fa-phone] #{info.phone}
         </ul>
       </div>
       if info.skills
