@@ -10,15 +10,32 @@ try {
             fs.readFileSync(
                 path.join(__dirname, 'cv.yml'), 'utf8'));
     
-    let model = {
+    const sections = docs.slice(1);
+    const pagesObj = {};
+
+    sections.forEach(section => {
+
+        if (!(section.page in pagesObj))
+            pagesObj[section.page] = [];
+        
+        pagesObj[section.page].push(section);
+    });
+    
+    let pageIdx = 1;
+    const pages = [];
+
+    do {
+
+        pages.push({ sections: pagesObj[pageIdx] });
+
+    } while (++pageIdx in pagesObj);
+
+    const model = {
         info: docs[0],
-        pages: [
-            { sections: docs.slice(1, 3) },
-            { sections: docs.slice(3) }
-        ]
+        pages: pages
     };
 
-    let rendered = pug.renderFile('main.pug', model);
+    const rendered = pug.renderFile('main.pug', model);
     
     fs.writeFileSync(path.join(__dirname, 'rendered.htm'), rendered, 'utf8');
 

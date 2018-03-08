@@ -10,6 +10,8 @@ skills:   [ C#, Server Infrastructures, Performance Optimizations, Open Source ]
 
 name: Experience
 icon: fa-suitcase
+page: 1
+
 items:
 
   - company: CityShob
@@ -94,6 +96,7 @@ items:
 
 name: Education
 icon: fa-graduation-cap
+page: 1
 
 items:
 
@@ -115,6 +118,7 @@ items:
 
 name: Special Grants
 icon: fa-trophy
+page: 2
 
 items:
 
@@ -133,6 +137,7 @@ items:
 
 name: Army Experience
 icon: fa-shield
+page: 2
 
 items:
 
@@ -166,6 +171,7 @@ items:
 
 name: Courses
 icon: fa-book
+page: 2
 
 items:
 

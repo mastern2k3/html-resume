@@ -95,7 +95,7 @@ li{
   font-size: 8pt;
 }
 
-/*** categorial blocks ***/
+/*** categoric blocks ***/
 
 .main-block {
   margin-top: 0.1in;
@@ -103,6 +103,7 @@ li{
 
 .page {
   page-break-after: always;
+  height: var(--page-height);
 }
 
 .main h2 {
@@ -200,7 +201,7 @@ li{
  * XXX: Use two filled circles to achieve the circle-with-white-border effect.
  * The normal technique of only using one pseudo element and
  * border: 1px solid white; style makes firefox erroneously either:
- * 1) overflows the grayshade background (if no background-clip is set), or
+ * 1) overflows the gray shade background (if no background-clip is set), or
  * 2) shows decorator line which should've been masked by the white border
  *
  */
@@ -239,6 +240,7 @@ li{
   flex: 1 0 0;
   padding-left: var(--decorator-horizontal-margin);
   padding-top: calc(var(--row-blocks-padding-top) - 0.5pt) !important; /* not sure why but this is needed for better alignment */
+  padding-bottom: 0.05in;
 }
 
 .details header{
@@ -319,6 +321,11 @@ li{
 
 .details .concise li{
   margin-left: 0 !important;
+}
+
+.tags {
+  margin-top: 0 !important;
+  font-weight: bold;
 }
 
 .details .tags ul {
