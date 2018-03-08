@@ -9,18 +9,22 @@ block content
             each item in section.items
                 section.blocks
                     .date
-                        span= item.to
-                        span= item.from
+                        if item.dates
+                            each date in item.dates
+                                span= date
                     .decorator
                     .details
                         header
                             h3= item.title
-                            span.place= item.company
-                            span.location= item.place
-                        div
-                            ul
-                                each ditem in item.desc
-                                    li= ditem
+                            if item.company
+                                span.place= item.company
+                            if item.place
+                                span.location= item.place
+                        if item.desc
+                            div
+                                ul
+                                    each ditem in item.desc
+                                        li= ditem
                         if item.tags
                             .tags
                                 ul

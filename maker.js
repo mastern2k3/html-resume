@@ -10,14 +10,23 @@ try {
             fs.readFileSync(
                 path.join(__dirname, 'cv.yml'), 'utf8'));
     
-    const model = {
+    let model = {
         info: docs[0],
-        sections: docs.slice(1)
+        sections: docs.slice(1, 3)
     };
 
-    const rendered = pug.renderFile('main.pug', model);
+    let rendered = pug.renderFile('main.pug', model);
     
-    fs.writeFileSync(path.join(__dirname, 'rendered.htm'), rendered, 'utf8');
+    fs.writeFileSync(path.join(__dirname, 'rendered_main.htm'), rendered, 'utf8');
+
+    model = {
+        info: docs[0],
+        sections: docs.slice(3)
+    };
+
+    rendered = pug.renderFile('main.pug', model);
+    
+    fs.writeFileSync(path.join(__dirname, 'rendered_back.htm'), rendered, 'utf8');
 
     // console.log(doc);
     console.log('noooice~');

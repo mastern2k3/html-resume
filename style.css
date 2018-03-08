@@ -97,11 +97,11 @@ li{
 
 /*** categorial blocks ***/
 
-.main-block{
+.main-block {
   margin-top: 0.1in;
 }
 
-#main h2{
+#main h2 {
   position: relative;
   top: var(--row-blocks-padding-top);
   /* XXX: 0.5px for aligning fx printing */
@@ -119,6 +119,8 @@ li{
   left: var(--main-blocks-title-icon-offset-left);
   z-index: 1; /* over decorator line */
   color: #444;
+  width: 13.62px;
+  text-align: center;
 }
 
 #main h2::after{ /* extends the decorator line */
@@ -136,16 +138,16 @@ li{
 }
 
 /**** minor tweaks on the icon fonts ****/
-#main h2 > .fa-graduation-cap{
+#main h2 > .fa-graduation-cap {
   left: calc(var(--main-blocks-title-icon-offset-left) - 2pt);
   top: 2pt;
 }
 
-#main h2 > .fa-suitcase{
+#main h2 > .fa-suitcase {
   top: 1pt;
 }
 
-#main h2 > .fa-folder-open{
+#main h2 > .fa-folder-open {
   top: 1.5pt;
 }
 
@@ -224,7 +226,7 @@ li{
 }
 
 .blocks:last-child .decorator{ /* slightly shortens it */
-  margin-bottom: 0.25in;
+  margin-bottom: 0.1in;
 }
 
 /***** fine-tunes on the details block where the real juice is *****/

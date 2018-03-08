@@ -27,21 +27,13 @@
           <li><i class="fa fa-phone"></i> (+972) 054-4981014</li>
         </ul>
       </div>
-      <div class="side-block" id="skills">
-        <h1>
-          Skills
-        </h1>
-        <ul>
-          <li>Omnipresence</li>
-          <li>Anonymity</li>
-        </ul>
-        <ul>
-          <li>Ordinarity</li>
-          <li>No name rights</li>
-        </ul>
-      </div>
-      <div class="side-block" id="disclaimer">
-      </div>
+      if info.skills
+        #skills.side-block
+          h1 Skills
+          ul
+            each skill in info.skills
+              li= skill
+      <div class="side-block" id="disclaimer"></div>
     </aside>
   </body>
 </html>

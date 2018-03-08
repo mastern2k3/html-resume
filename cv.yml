@@ -3,7 +3,7 @@ name:     Nitzan Zada
 linkedin: linkedin.com/in/nitzanzada
 email:    nitzan.zada@gmail.com
 phone:    (+972) 054-4981014
-
+skills:   [ C#, Server Infrastructures, Performance Optimizations, Open Source ]
 ---
 
 name: Experience
@@ -12,8 +12,7 @@ items:
 
   - company: CityShob
     title:   Consultant / Full Stack Developer
-    to:      present
-    from:    2017
+    dates:   [ present, 2017 ]
     sub:     CodeValue
     place:   Kfar Neter
     desc:
@@ -22,8 +21,7 @@ items:
 
   - company: Maavarim - IDF
     title:   Architect / Consultant
-    to:      present
-    from:    2017
+    dates:   [ present, 2017 ]
     sub:     CodeValue
     place:   Rishon LeZion
     desc:
@@ -32,8 +30,7 @@ items:
 
   - company: Verifile
     title:   Architect / Full Stack Developer
-    to:      2017
-    from:    2017
+    dates:   [ 2017, 2017 ]
     sub:     CodeValue
     place:   Herzliya
     desc:
@@ -43,8 +40,7 @@ items:
 
   - company: QualiSystems
     title:   Consultant / Full Stack Developer
-    to:      2016
-    from:    2015
+    dates:   [ 2016, 2015 ]
     sub:     CodeValue
     place:   Ganei Tikva
     desc:
@@ -54,8 +50,7 @@ items:
 
   - company: OzCode
     title:   Consultant
-    to:      present
-    from:    2014
+    dates:   [ present, 2014 ]
     sub:     CodeValue
     place:   Herzliya
     desc:
@@ -66,8 +61,7 @@ items:
 
   - company: NCR
     title:   Full Stack Developer
-    to:      2015
-    from:    2014
+    dates:   [ 2015, 2014 ]
     sub:     CodeValue
     place:   Ra'anana
     desc:
@@ -77,8 +71,7 @@ items:
 
   - company: Cellebrite
     title:   Full Stack Developer
-    to:      2014
-    from:    2013
+    dates:   [ 2014, 2013 ]
     sub:     CodeValue
     place:   Petah Tikva
     desc:
@@ -89,17 +82,41 @@ items:
 ---
 
 name: Education
-icon: fa-suitcase
+icon: fa-graduation-cap
 
 items:
 
-  - company: CityShob
-    title:   Consultant / Full Stack Developer
-    to:      2007
-    from:    2005
-    place:   Kfar Neter
+  - company: Mamram, IDF Computer Engineering School
+    title:   Mamram Software Engineering Course Graduate
+    dates:   [ 2008, 2007 ]
+    place:   Ramat Gan
     desc:
-      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
+      - After being picked by the IDF for computer engineering, my military service started with a 3 month intensive course.
+
+  - company: Ort Shapira Collage Kfar Saba
+    title:   Computer Science Engineering Diploma
+    dates:   [ 2007, 2005 ]
+    place:   Kfar Saba
+    desc:
+      - 15 Computer Science units, 5 Math units, 5 English units, 5 Physics units.
+
+---
+
+name: Special Grants
+icon: fa-trophy
+
+items:
+
+  - company: For leading the integration of a new business process management module into our systems.
+    title:   Research Scholarship
+    dates:   [ 2010 ]
+
+  - company: For leading the development of the new project infrastructures.
+    title:   Division Exemplary Excellence Grant
+    dates:   [ 2009 ]
+
+  - title:   Course Exemplary Excellence Grant
+    dates:   [ 2008 ]
 
 ---
 
@@ -110,10 +127,40 @@ items:
 
   - company: CityShob
     title:   Consultant / Full Stack Developer
-    to:      present
-    from:    2017
     sub:     CodeValue
     place:   Kfar Neter
+    desc:
+      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
+    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
+
+  - company: CityShob
+    title:   Consultant / Full Stack Developer
+    dates:   [ 2008 ]
+    sub:     CodeValue
+    place:   Kfar Neter
+    desc:
+      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
+    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
+
+  - company: CityShob
+    title:   Consultant / Full Stack Developer
+    dates:   [ 2008, 2008 ]
+    sub:     CodeValue
+    place:   Kfar Neter
+    desc:
+      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
+    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
+
+---
+
+name: Courses
+icon: fa-book
+
+items:
+
+  - company: CityShob
+    title:   Consultant / Full Stack Developer
+    sub:     CodeValue
     desc:
       - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
     tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
