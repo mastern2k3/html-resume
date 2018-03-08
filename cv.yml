@@ -1,6 +1,14 @@
+name:     Nitzan Zada
+# subtitle: I'm kinda good, give me a job
+linkedin: linkedin.com/in/nitzanzada
+email:    nitzan.zada@gmail.com
+phone:    (+972) 054-4981014
 
 ---
-projects:
+
+name: Experience
+icon: fa-suitcase
+items:
 
   - company: CityShob
     title:   Consultant / Full Stack Developer
@@ -78,9 +86,34 @@ projects:
       - Developed a POC using Node.js and Websockets in favor of refactoring parts of the existing .Net system.
     tags: [ Event Sourcing, WF4, WCF, MassTransit, MSMQ, Node.js, Websockets, Performance Profiling, Telerik, C# ]
 
-info:
-  name:     Nitzan Zada
-  subtitle: I'm kinda good, give me a job
-  linkedin: linkedin.com/in/nitzanzada
-  email:    nitzan.zada@gmail.com
-  phone:    (+972) 054-4981014
+---
+
+name: Education
+icon: fa-suitcase
+
+items:
+
+  - company: CityShob
+    title:   Consultant / Full Stack Developer
+    to:      2007
+    from:    2005
+    place:   Kfar Neter
+    desc:
+      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
+
+---
+
+name: Army Experience
+icon: fa-shield
+
+items:
+
+  - company: CityShob
+    title:   Consultant / Full Stack Developer
+    to:      present
+    from:    2017
+    sub:     CodeValue
+    place:   Kfar Neter
+    desc:
+      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
+    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]

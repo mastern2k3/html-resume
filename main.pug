@@ -1,22 +1,28 @@
 extends layout.pug
 
 block content
-    each project in projects
-        section.blocks
-            .date
-                span= project.to
-                span= project.from
-            .decorator
-            .details
-                header
-                    h3= project.title
-                    span.place= project.company
-                    span.location= project.place
-                div
-                    ul
-                        each item in project.desc
-                            li= item
-                .tags
-                    ul
-                        each item in project.tags
-                            li= item
+    each section in sections
+        section.main-block
+            h2
+                i(class= 'fa ' + section.icon)
+                = section.name
+            each item in section.items
+                section.blocks
+                    .date
+                        span= item.to
+                        span= item.from
+                    .decorator
+                    .details
+                        header
+                            h3= item.title
+                            span.place= item.company
+                            span.location= item.place
+                        div
+                            ul
+                                each ditem in item.desc
+                                    li= ditem
+                        if item.tags
+                            .tags
+                                ul
+                                    each titem in item.tags
+                                        li= titem

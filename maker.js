@@ -5,12 +5,17 @@ const pug  = require('pug');
 
 try {
     
-    const doc =
-        yaml.safeLoad(
+    const docs =
+        yaml.safeLoadAll(
             fs.readFileSync(
                 path.join(__dirname, 'cv.yml'), 'utf8'));
     
-    const rendered = pug.renderFile('main.pug', doc);
+    const model = {
+        info: docs[0],
+        sections: docs.slice(1)
+    };
+
+    const rendered = pug.renderFile('main.pug', model);
     
     fs.writeFileSync(path.join(__dirname, 'rendered.htm'), rendered, 'utf8');
 
