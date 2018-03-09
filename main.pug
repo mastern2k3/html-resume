@@ -25,7 +25,10 @@ block content
                   header
                     h3= item.title
                     if item.company
-                      span.place= item.company
+                      span.place
+                        = item.company
+                        if item.sub
+                          = " ▪ via " + item.sub
                     if item.place
                       span.location= item.place
                   if item.desc
