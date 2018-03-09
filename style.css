@@ -383,7 +383,7 @@ li {
   padding: 0;
 }
 
-.disclaimer{
+.disclaimer {
   position: absolute;
   bottom: var(--sidebar-horizontal-padding);
   right: var(--sidebar-horizontal-padding);
@@ -394,9 +394,13 @@ li {
   color: #777;
 }
 
-.disclaimer code{
-  color: #666;
-  font-family: "Source Code Pro";
-  font-weight: 400;
-  font-style: normal;
+.page-number {
+  position: absolute;
+  bottom: var(--sidebar-horizontal-padding);
+  right: var(--sidebar-horizontal-padding);
+  font-size: 8.5pt;
+  font-style: italic;
+  line-height: 1.1;
+  text-align: right;
+  color: #777;
 }

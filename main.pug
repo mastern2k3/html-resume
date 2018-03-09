@@ -1,7 +1,7 @@
 extends layout.pug
 
 block content
-  each page in pages
+  each page, page_nr in pages
     .page
       section.main
         header.title
@@ -65,4 +65,5 @@ block content
             ul
               each skill in info.skills
                 li= skill
-        side-block.disclaimer &nbsp;
+        if pages.length > 1
+          side-block.page-number Page #{page_nr + 1} of #{pages.length}
