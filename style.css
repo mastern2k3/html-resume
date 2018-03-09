@@ -29,7 +29,7 @@
   --main-blocks-title-icon-offset-left: -19pt;
 }
 
-body{
+body {
   width: var(--page-width);
   height: calc(var(--page-height) * 2);
   margin: 0;
@@ -40,23 +40,23 @@ body{
   hyphens: auto;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   margin: 0;
   color: #000;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-.main{
+.main {
   float: left;
   width: var(--main-width);
   padding: 0.25in 0.25in 0 0.25in;
-  font-size: 7pt;
+  font-size: 8pt;
 }
 
-.sidebar{
+.sidebar {
   float: right;
   position: relative; /* for disclaimer */
   width: var(--sidebar-width);
@@ -69,7 +69,7 @@ li{
 /* main */
 
 /** big title **/
-.title, h1, h2{
+.title, h1, h2 {
   text-transform: uppercase;
 }
 

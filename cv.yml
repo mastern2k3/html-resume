@@ -1,10 +1,21 @@
 name:     Nitzan Zada
-site:     zada.io
+# site:     zada.io
 # subtitle: I'm kinda good, give me a job
 linkedin: linkedin.com/in/nitzanzada
 email:    nitzan.zada@gmail.com
-phone:    (+972) 054-4981014
-skills:   [ C#, Server Infrastructures, Performance Optimizations, Open Source ]
+phone:    (+972) 054-498-1014
+gender:   male
+age:      29
+skills:
+  - Back-End Architectures
+  - Performance Obsessed
+  - Open Source Enthusiast
+  - Quick Learner
+  - .Net
+  - JavaScript
+  - "\_"
+  - Fluent in Hebrew
+  - Fluent in English
 
 ---
 
@@ -90,13 +101,13 @@ items:
     desc:
       - Was part of the infrastructure team, working closely with their architect to solve problems in their pub-sub and event sourcing infrastructure.
       - Developed a POC using Node.js and Websockets in favor of refactoring parts of the existing .Net system.
-    tags: [ Event Sourcing, WF4, WCF, MassTransit, MSMQ, Node.js, Websockets, Performance Profiling, Telerik, C# ]
+    tags: [ Event Sourcing, MongoDB, WF4, WCF, MassTransit, MSMQ, Node.js, Websockets, Performance Profiling, Telerik, C# ]
 
 ---
 
 name: Education
 icon: fa-graduation-cap
-page: 1
+page: 2
 
 items:
 
@@ -116,6 +127,58 @@ items:
 
 ---
 
+name: Courses
+icon: fa-book
+page: 2
+
+items:
+
+  - company: IDesign - Juval Lowy
+    title:   The Architect’s Master Class
+    dates:   [ 2015 ]
+
+  - company: CodeValue
+    title:   .Net Performance and Debugging
+    dates:   [ 2014 ]
+
+---
+
+name: Army Experience
+icon: fa-shield
+page: 2
+
+items:
+
+  - company: "\"Philosopher's Stone\" Dev Team - Lotem - Mamram"
+    title:   Senior Developer / Tech Lead
+    dates:   [ 2013, 2011 ]
+    place:   Tsrifin
+    desc:
+      - Research and design of new infrastructure modules for the ongoing refactoring of the legacy systems into .Net.
+      - Research and implementation of new ETL framework against other governmental bodies.
+    tags: [ ETL, SSIS ]
+
+  - company: "\"Philosopher's Stone\" Dev Team - Lotem - Mamram"
+    title:   Senior Developer / Tech Lead
+    dates:   [ 2011, 2010 ]
+    place:   Tsrifin
+    desc:
+      - Working closely with Microsoft brought consultants and architects.
+      - Design and development of n-tier infrastructures of a .Net based system.
+      - Server side based on WCF services and WCF extensions.
+    tags: [ nHibernate, WCF, Enterprise Library, Dependency Injection, Oracle BPM, Janus Forms ]
+
+  - company: "\"Rolling Stone\" Dev Team - Lotem - Mamram"
+    title:   Junior Developer
+    dates:   [ 2010, 2008 ]
+    place:   Tsrifin
+    desc:
+      - Development and maintenance of a military critical system based on PL/SQL and Oracle
+      - Working with high throughput Oracle database including high complexity PL/SQL
+    tags: [ Oracle, Unix, SQL, PL/SQL, Microsoft Analysis ]
+
+---
+
 name: Special Grants
 icon: fa-trophy
 page: 2
@@ -132,52 +195,3 @@ items:
 
   - title:   Course Exemplary Excellence Grant
     dates:   [ 2008 ]
-
----
-
-name: Army Experience
-icon: fa-shield
-page: 2
-
-items:
-
-  - company: CityShob
-    title:   Consultant / Full Stack Developer
-    sub:     CodeValue
-    place:   Kfar Neter
-    desc:
-      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
-    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
-
-  - company: CityShob
-    title:   Consultant / Full Stack Developer
-    dates:   [ 2008 ]
-    sub:     CodeValue
-    place:   Kfar Neter
-    desc:
-      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
-    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
-
-  - company: CityShob
-    title:   Consultant / Full Stack Developer
-    dates:   [ 2008, 2008 ]
-    sub:     CodeValue
-    place:   Kfar Neter
-    desc:
-      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
-    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
-
----
-
-name: Courses
-icon: fa-book
-page: 2
-
-items:
-
-  - company: CityShob
-    title:   Consultant / Full Stack Developer
-    sub:     CodeValue
-    desc:
-      - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
-    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]

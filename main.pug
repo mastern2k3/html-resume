@@ -31,30 +31,33 @@ block content
                   if item.desc
                     div
                       ul
-                        each ditem in item.desc
-                          li= ditem
+                        each d_item in item.desc
+                          li= d_item
                   if item.tags
                     .tags
                       ul
-                        each titem in item.tags
-                          li= titem
+                        each t_item in item.tags
+                          li= t_item
 
       aside.sidebar
       
         .side-block.contact
           h1 Contact Info
           ul
-          if info.site
-              li #[i.fa.fa-globe] #{info.site}
-
-          if info.linkedin
-              li #[i.fa.fa-linkedin] #{info.linkedin}
-
-          if info.email
+            if info.phone
+              li #[i.fa.fa-phone] #{info.phone}
+                
+            if info.email
               li #[i.fa.fa-envelope] #{info.email}
 
-          if info.phone
-              li #[i.fa.fa-phone] #{info.phone}
+            if info.site
+              li #[i.fa.fa-globe] #{info.site}
+
+            if info.linkedin
+              li #[i.fa.fa-linkedin] #{info.linkedin}
+          
+            if info.gender
+              li #[i(class="fa " + (info.gender == "male" ? "fa-mars" : "fa-venus"))] #{info.age}
         
         if info.skills
           .skills.side-block
