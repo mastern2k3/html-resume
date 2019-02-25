@@ -5,14 +5,15 @@ linkedin: linkedin.com/in/nitzanzada
 email:    nitzan.zada@gmail.com
 phone:    (+972) 054-498-1014
 gender:   male
-age:      29
+age:      30
 skills:
   - Back-End Architectures
+  - Microservices
   - Performance Obsessed
   - Open Source Enthusiast
   - Quick Learner
-  - .Net
-  - JavaScript
+  - Go
+  - Docker
   - "\_"
   - Fluent in Hebrew
   - Fluent in English
@@ -25,18 +26,28 @@ page: 1
 
 items:
 
+  - company: Halo Digital
+    title:   Consultant / Full Stack Developer
+    dates:   [ present, 2018 ]
+    sub:     Tikal
+    place:   Tel Aviv
+    desc:
+      - Acting as a tech lead, I was tasked with building pluggable Go microservices backed by kafka
+      - I was also tasked with building the API infrastructures for their app
+    tags: [ Java, Go, Go Plugins, Python, Kubernetes, Microservices, Kafka, GraphQL, Docker, MemSQL ]
+
   - company: CityShob
     title:   Consultant / Full Stack Developer
-    dates:   [ present, 2017 ]
+    dates:   [ 2018, 2017 ]
     sub:     CodeValue
     place:   Kfar Neter
     desc:
       - Acting as a tech lead, researching and developing the new mobile forces modules into the existing system using Azure oriented solutions.
-    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android, C# ]
+    tags: [ Cloud Infrastructures, Azure Functions, Elastic Search, Kibana, Android ]
 
   - company: Maavarim - IDF
     title:   Architect / Consultant
-    dates:   [ present, 2017 ]
+    dates:   [ 2018, 2017 ]
     sub:     CodeValue
     place:   Rishon LeZion
     desc:
@@ -51,7 +62,7 @@ items:
     desc:
       - Was part of the architecture team building a new API framework.
       - Helped complete the delivery of a new API architecture to the client.
-    tags: [ WebApi, REST, Swagger, PhantomJS, Selenium, Web automation, C# ]
+    tags: [ WebApi, REST, Swagger, PhantomJS, Selenium, Web automation ]
 
   - company: QualiSystems
     title:   Consultant / Full Stack Developer
@@ -61,11 +72,11 @@ items:
     desc:
       - Started as a consultant in charge of investigating the migration of some of the project's .net services to Linux machines.
       - Was a tech lead in the core infrastructure team.
-    tags: [ Mono, Linux, WCF Extensions, Python, Java, IntelliJ Extensions, TypeScript, C# ]
+    tags: [ Mono, Linux, WCF Extensions, Python, Java, IntelliJ Extensions, TypeScript ]
 
   - company: OzCode
     title:   Consultant
-    dates:   [ present, 2014 ]
+    dates:   [ 2018, 2014 ]
     sub:     CodeValue
     place:   Herzliya
     desc:
@@ -76,22 +87,22 @@ items:
 
   - company: CodeValue
     title:   Course Conductor
-    dates:   [ present, 2014 ]
+    dates:   [ 2018, 2014 ]
     desc:
       - "As one of the consultants at CodeValue I conducted short term courses for numerous clients:"
       - Git and GitExtensions for the Israel Aerospace Industries (IAI) and Microsoft
       - Python for General Motors
       - Xml Data Management and Processing for Check Point
 
-  - company: NCR
-    title:   Full Stack Developer
-    dates:   [ 2015, 2014 ]
-    sub:     CodeValue
-    place:   Ra'anana
-    desc:
-      - Was part of what was called the R10 core infrastructure team, helping develop the infrastructure for the upcoming R10 product.
-      - Helped with profiling the system with various tools.
-    tags: [ RabbitMQ, SQL Server, Profiling, WCF Extensions, C# ]
+  # - company: NCR
+  #   title:   Full Stack Developer
+  #   dates:   [ 2015, 2014 ]
+  #   sub:     CodeValue
+  #   place:   Ra'anana
+  #   desc:
+  #     - Was part of what was called the R10 core infrastructure team, helping develop the infrastructure for the upcoming R10 product.
+  #     - Helped with profiling the system with various tools.
+  #   tags: [ RabbitMQ, SQL Server, Profiling, WCF Extensions, C# ]
 
   - company: Cellebrite
     title:   Full Stack Developer
